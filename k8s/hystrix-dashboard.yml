@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hystrix-dashboard-app
-          image: dailycodebuffer/hystrix-dashboard:0.0.1
+          image: vvsenthil/hystrix-dashboard:0.0.1
           imagePullPolicy: Always
           ports:
             - containerPort: 9295
